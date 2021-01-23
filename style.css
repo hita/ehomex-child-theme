@@ -15,7 +15,6 @@ h4 {
 
 h1, h3, h4 {
   color: #9c8771;
-  color: orange;
 }
 
 h1, h2 {
@@ -24,13 +23,12 @@ h1, h2 {
 
 
 body, h1, h2, p, .site-description, .wc-block-cover, .wc-block-grid__product-title, .has-text-color, .has-ibsen-very-dark-blue-color, .wp-block-product-new, .wc-block-grid__product-title {
-color: #4a4a4c;
+  color: #4a4a4c;
 }
 
 .wc-block-grid__product .wc-block-grid__product-title{
-color: #4a4a4c;
-
-   font-family: 'Ubuntu';
+  color: #4a4a4c;
+  font-family: 'Ubuntu';
 }
 
 
@@ -105,4 +103,14 @@ text-shadow: 4px 4px 8px #333;
 
 .description_tab .active{
 background-color: black;
+}
+
+.place-order .button .alt{
+  font-size: 24px;
+  margin-left: 30%;
+
+}
+
+.next-step-button{
+  margin-right: 10%;
 }
