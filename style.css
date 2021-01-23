@@ -107,10 +107,10 @@ background-color: black;
 
 #place_order{
   font-size: 24px;
-  margin-left: 30%;
+  margin-left: 40%;
 
 }
 
-.next-step-button{
-  margin-right: 10%;
+.buton.alt.next-step-button{
+  margin-right: 20%;
 }
