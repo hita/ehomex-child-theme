@@ -1,0 +1,107 @@
+/*
+ Theme Name:   Ibsen Child Theme
+ description: >-
+   A child theme of the ehomex's Ibsen theme
+ Author:       Angel H.A & Luis F.P.
+ Template:     ibsen
+ Version:      1.0.0
+*/
+
+@import url("../ibsen/style.css");
+
+h4 {
+  color: #9c8771;
+}
+
+h1, h3, h4 {
+  color: #9c8771;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+
+body, h1, h2, p, .site-description, .wc-block-cover, .wc-block-grid__product-title, .has-text-color, .has-ibsen-very-dark-blue-color, .wp-block-product-new, .wc-block-grid__product-title {
+color: #4a4a4c;
+}
+
+.wc-block-grid__product .wc-block-grid__product-title{
+color: #4a4a4c;
+
+   font-family: 'Ubuntu';
+}
+
+
+#masthead.light {
+  background-color: #FFF;
+  color: #7f1900;
+}
+
+
+#masthead.light #site-navigation a {
+  color: #9c8771;
+}
+
+.wp-block-button__link {
+  background-color: #9c8771;
+  border-radius: 0;
+  font-size: 1em;
+  color: #fff;
+  margin-bottom: 1em;
+  padding: .5em 1em;
+  transition: all .3s ease;
+}
+
+#masthead.light #site-navigation a {
+ color: #4a4a4c;
+}
+
+#masthead > .container {
+ 
+  padding: 0.8rem 0;
+  transition: padding .5s;
+}
+
+#top-footer{
+color: white;
+background-image: url("/wp-content/uploads/2021/01/brown-craft.jpg.jpg");
+background-repeat: repeat;
+}
+
+#top-footer a:link, a:visited{
+color: #212121;
+font-weight: bolder;
+}
+
+#top-footer center{
+color: #212121;
+
+}
+
+#bottom-footer{
+ background-color: #212121;
+color: white;
+}
+
+.custom-logo{
+max-width: 90%;
+height: 90%;
+}
+.carousel-header h2{
+font-size: 90px;
+text-shadow: 4px 4px 8px #FFF;
+padding: 20px;
+opacity: 0.8;
+
+}
+
+.carousel-header-light h2{
+color: #FFF;
+text-shadow: 4px 4px 8px #333;
+
+}
+
+.description_tab .active{
+background-color: black;
+}
