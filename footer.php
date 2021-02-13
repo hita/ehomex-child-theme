@@ -69,21 +69,7 @@
                 	'fallback_cb' => 'ibsen_footer_menu_fallback',
 				) ); */ 
 				
-				function create_copyright() {
-					$all_posts = get_posts( 
-					'post_status=publish&order=ASC' );
-					$first_post = $all_posts[0];
-					$first_date = $first_post->post_date_gmt;
-					_e( 'Copyright &copy; ' );
-					if ( substr( $first_date, 0, 4 ) == date( 'Y' ) ) {
-					echo date( 'Y' );
-					} else {
-					echo substr( $first_date, 0, 4 ) . "-" . date( 'Y' );
-					}
-					echo ' <strong>' . get_bloginfo( 'name' ) . 
-					'</strong> ';
-					_e( 'All rights reserved.' );
-					}
+				echo create_copyright();
 					?>
 
 			</div>

@@ -17,4 +17,20 @@ rendering to display the shop.*/
 add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
    add_theme_support( 'woocommerce' );
-}  
+} 
+
+function create_copyright() {
+   $all_posts = get_posts( 
+   'post_status=publish&order=ASC' );
+   $first_post = $all_posts[0];
+   $first_date = $first_post->post_date_gmt;
+   _e( 'Copyright &copy; ' );
+   if ( substr( $first_date, 0, 4 ) == date( 'Y' ) ) {
+   echo date( 'Y' );
+   } else {
+   echo substr( $first_date, 0, 4 ) . "-" . date( 'Y' );
+   }
+   echo ' <strong>' . get_bloginfo( 'name' ) . 
+   '</strong> ';
+   _e( 'All rights reserved.' );
+   }
