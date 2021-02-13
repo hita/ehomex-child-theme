@@ -70,10 +70,10 @@ background-repeat: repeat;
 
 #top-footer a:link, a:visited{
 color: #212121;
-font-weight: bolder;
+
 }
 
-#top-footer .footer-title{
+.footer-title{
   color:#4a4a4c;
 }
 
