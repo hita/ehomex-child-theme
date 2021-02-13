@@ -73,9 +73,8 @@ color: #212121;
 font-weight: bolder;
 }
 
-#top-footer center{
-color: #212121;
-
+#top-footer .footer-title{
+  color:#4a4a4c;
 }
 
 #bottom-footer{
